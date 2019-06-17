@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBtn1Clicked"
+        android:text="표시" />
+
+    <TextView
+        android:id="@+id/target_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff88ff"
+        android:padding="20dp"
+        android:text="Hello World!"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBtn2Clicked"
+        android:text="숨기기" />
+</LinearLayout>
